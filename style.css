@@ -310,7 +310,7 @@ footer > span {
   font-size: 0.9em;
   color: #444;
 }
-@media all and (min-width: 614px) {
+@media all and (min-width: 600px) {
   #header {
     width: 100%;
   }
