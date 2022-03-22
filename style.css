@@ -1,6 +1,6 @@
 /** global element styling **/
 
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
 
 * {
   margin: 0;
@@ -9,8 +9,8 @@
 }
 
 body {
-  background-color: #A5AA52;
-  font-family: 'Lato', sans-serif;
+  background-color: #a5aa52;
+  font-family: "Lato", sans-serif;
 }
 
 #page-wrapper {
@@ -47,15 +47,16 @@ a {
 .grid {
   display: flex;
 }
+
 #header-img {
-   width: 50px;
+  width: 50px;
 }
 
 header {
   position: fixed;
   top: 0;
   min-height: 75px;
-  padding: 0px 20px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -110,6 +111,7 @@ nav {
     text-align: center;
     padding: 0 50px;
   }
+
   nav li {
     padding-bottom: 5px;
   }
@@ -120,14 +122,12 @@ nav > ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  
 }
 
 @media (max-width: 650px) {
   nav > ul {
     flex-direction: row;
   }
-
 }
 
 #hero {
@@ -140,18 +140,22 @@ nav > ul {
   margin-top: 50px;
 }
 
+.product > h2 {
+  margin-top: 15px;
+}
+
 #hero > h2 {
   margin-bottom: 20px;
   word-wrap: break-word;
 }
 
-#hero input[type='email'] {
+#hero input[type="email"] {
   max-width: 275px;
   width: 100%;
   padding: 5px;
 }
 
-#hero input[type='submit'] {
+#hero input[type="submit"] {
   max-width: 150px;
   width: 100%;
   height: 30px;
@@ -160,8 +164,8 @@ nav > ul {
   background-color: #767522;
 }
 
-#hero input[type='submit']:hover {
-  background-color: #A5AA52;
+#hero input[type="submit"]:hover {
+  background-color: #a5aa52;
   transition: background-color 1s;
 }
 
@@ -181,7 +185,7 @@ nav > ul {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: #CDC776;
+  color: #cdc776;
 }
 
 @media (max-width: 550px) {
@@ -252,12 +256,12 @@ nav > ul {
   font-weight: 700;
 }
 
-.product > h2 {
-  margin-top: 15px;
-}
-
 .product > ol {
   margin: 15px 0;
+}
+
+footer > ul > li {
+  padding: 0 10px;
 }
 
 .product > ol > li {
@@ -280,6 +284,7 @@ nav > ul {
   #pricing {
     flex-direction: column;
   }
+
   .product {
     max-width: 300px;
     width: 100%;
@@ -299,10 +304,6 @@ footer > ul {
   justify-content: flex-end;
 }
 
-footer > ul > li {
-  padding: 0 10px;
-}
-
 footer > span {
   margin-top: 5px;
   display: flex;
@@ -310,6 +311,7 @@ footer > span {
   font-size: 0.9em;
   color: #444;
 }
+
 @media all and (min-width: 600px) {
   #header {
     width: 100%;
